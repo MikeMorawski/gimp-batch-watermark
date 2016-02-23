@@ -11,11 +11,17 @@ Install/Prepare to Run
 Parameters
 -----
 Watermark Path – Path to a watermark in XCF (GIMP) format. Other formats may work as well.
+
 Input files – Path to directory, followed by a wildcard search (i.e. *.jpg to target all jpg images to be watermarked).
+
 Watermark Size – How big your watermark will be in accordance to the image. This is a percent but is entered as a decimal such as .05 (5%).
+
 Watermark Padding – Each watermark will be padded from the corners of the image by a percentage (of the entire image) you define. This is a percent but is entered as a decimal as well.
+
 Watermark Layer Mode – leave this as 0 (zero). higher numbers (i.e. 1,2,3…) will enable a different layer mode such as lighten/hard light/etc.
+
 Position Number – My script allows for the watermark to be aligned in any corner, or the center. Acceptable values are 1,2,3,4,5.
+
 Output Path – Where the watermarked images will be saved to.
 
 Usage
